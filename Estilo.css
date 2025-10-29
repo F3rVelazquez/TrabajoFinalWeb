@@ -3,7 +3,9 @@
     border: 0cap;
 }
 .carrousel{
+    display: flex;
+    justify-content: center;
     border:solid 2px gainsboro;
-    width: fit-content;
     padding: 20px;
+    background-color: azure;
 }
