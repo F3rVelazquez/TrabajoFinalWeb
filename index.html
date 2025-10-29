@@ -30,10 +30,28 @@
     </footer>
 </body>
 <script>
-    ima = document.getElementById("foto");
-    
     let imagenes = ["Imagenesdeprueba/cara1.jpeg","Imagenesdeprueba/cara2.jpeg","Imagenesdeprueba/cara3.jpeg","Imagenesdeprueba/cara4.jpeg","Imagenesdeprueba/cara5.png","Imagenesdeprueba/cara6.png"];
 
-    ima.src = "Imagenesdeprueba/cara2.jpeg";
+    let indice = 0;
+
+    ima = document.getElementById("foto");
+    document.getElementById("adelante").onclick = Adelantar;
+    document.getElementById("atras").onclick = Atras;
+    
+    
+
+    ima.src = imagenes[indice];
+
+    function Adelantar(){
+        indice++;
+
+        ima.src = imagenes[indice];
+    }
+
+    function Atras(){
+        indice--;
+
+        ima.src = imagenes[indice];
+    }
 </script>
 </html>
