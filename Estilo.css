@@ -1,0 +1,9 @@
+.carrousel button{
+    background: none;
+    border: 0cap;
+}
+.carrousel{
+    border:solid 2px gainsboro;
+    width: fit-content;
+    padding: 20px;
+}
