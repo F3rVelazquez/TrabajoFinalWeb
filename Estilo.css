@@ -1,11 +1,29 @@
 .carrousel button{
     background: none;
     border: 0cap;
+    width: 100px;
 }
 .carrousel{
-    display: flex;
+    display: flex; 
     justify-content: center;
-    border:solid 2px gainsboro;
+    border:solid 2px #2b2a2a;
     padding: 20px;
-    background-color: azure;
+    background-color: #2e2d2d00;
+}
+.carrousel img{
+    width: 451px;
+    height: 338px;
+    
+}
+
+.cuerpo{
+    justify-self: center;
+    background-color: #212121fc;
+    border: solid 1px #2b2a2a;
+    width: 1200px;
+}
+
+body{
+    background-image: url('Imagenes/eeeeeeeee.jpg');
+    background-color: #1a1a1a;
 }
