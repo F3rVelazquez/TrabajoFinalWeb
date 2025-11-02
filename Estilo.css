@@ -1,7 +1,17 @@
 .carrousel button{
-    background: none;
+    font-size:80px;
     border: 0cap;
-    width: 100px;
+    width: 300px;
+    color: #76b31c;
+    background-color: rgba(41, 41, 39, 0.647);
+    align-items: center;
+}
+*{
+    cursor: crosshair;
+}
+img{
+    display: flex;
+    justify-self: center;
 }
 .carrousel{
     display: flex; 
@@ -11,19 +21,34 @@
     background-color: #2e2d2d00;
 }
 .carrousel img{
-    width: 451px;
-    height: 338px;
+    width: 700px;
+    height: 500px;
     
 }
-
+p{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e0e4df;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+h1,h2{
+    padding-left: 20px;
+    color: #e0e4df;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .cuerpo{
     justify-self: center;
     background-color: #212121fc;
     border: solid 1px #2b2a2a;
     width: 1200px;
 }
-
+a{
+    color: #376fdf;
+}
 body{
+    cursor: url("Imagenes/si.cur");
     background-image: url('Imagenes/eeeeeeeee.jpg');
     background-color: #1a1a1a;
 }
