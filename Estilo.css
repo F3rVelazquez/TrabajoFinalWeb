@@ -1,54 +1,101 @@
-.carrousel button{
-    font-size:80px;
+.carrousel button {
+    font-size: 80px;
     border: 0cap;
     width: 300px;
     color: #76b31c;
     background-color: rgba(41, 41, 39, 0.647);
     align-items: center;
 }
-*{
+
+* {
     cursor: crosshair;
 }
-img{
+
+img {
     display: flex;
     justify-self: center;
 }
-.carrousel{
-    display: flex; 
+
+.carrousel {
+    display: flex;
     justify-content: center;
-    border:solid 2px #2b2a2a;
+    border: solid 2px #2b2a2a;
     padding: 20px;
     background-color: #2e2d2d00;
 }
-.carrousel img{
+
+.carrousel img {
     width: 700px;
     height: 500px;
-    
+
 }
-p{
-    font-size: small;
+
+p {
+    font-size:medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #e0e4df;
     margin-left: 40px;
     margin-right: 40px;
-    
+
 }
-h1,h2{
+
+h1,
+h2 {
     padding-left: 20px;
     color: #e0e4df;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.cuerpo{
+
+.cuerpo {
     justify-self: center;
     background-color: #212121fc;
     border: solid 1px #2b2a2a;
     width: 1200px;
 }
-a{
+
+.cuerpoform {
+    justify-self: center;
+    background-color: #212121fc;
+    border: solid 1px #2b2a2a;
+    width: 700px;
+}
+
+a {
     color: #376fdf;
 }
-body{
+
+body {
     cursor: url("Imagenes/si.cur");
-    background-image: url('Imagenes/eeeeeeeee.jpg');
+    background-image: url('Imagenes/Fondo.jpg');
     background-color: #1a1a1a;
+}
+/*Página 2*/
+.formulario label {
+    font-size: x-large;
+    color: #e0e4df;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bold;
+}
+
+.formu {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: #1f1e1ec0;
+    padding: 15px;
+    align-self: flex-start;
+    width: 250px;
+}
+.Encabezado{
+    display: flex;
+    justify-content: end;
+    background-color: #1a1a1a4d;
+}
+
+.Encabezado button{
+    height: 40px;
+    background-color: #1a1a1a4d;
+    border-style:ridge;
+    border-color: #77b31c0d;
+    color: #376fdf;
 }
