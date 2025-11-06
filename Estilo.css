@@ -69,8 +69,57 @@ body {
     background-image: url('Imagenes/Fondo.jpg');
     background-color: #1a1a1a;
 }
+/*------------------Estilo de la Página 2---------------------*/
+.Titulo > h1{
+    margin: 0;
+    padding: 12px 28px;
+    background: #000;
+    color: #e0e4df;
+    border-radius: 12px;
+    border: 2px solid #ffffff0d;
+    box-shadow: 0 4px 12px #00000099;
+    font-size: 2rem;
 
-/*Página 2*/
+}
+.cuerpo img{
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+}
+
+.Armas{
+    width: 1000px;
+}
+
+.Pistolas, .Melee, .Smg, .Escopetas, .RiflesDeAsalto, .Snipers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* Contenedor del título centrado */
+.Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+/* Estilo común para todas las cajas */
+
+
+ /* Estilo para la caja superior */
+.caja-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; 
+    margin-top: 20px; 
+}
+
+
+
+/*------------------Estilo de la Página 3---------------------*/
 .cuerpoform {
     justify-self: center;
     background-color: #404b36;
