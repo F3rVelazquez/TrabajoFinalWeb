@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+.banner {
+    border: solid 1px #adff2f;
+    width: "1200";
+    height: "250";
+}
+
 * {
     cursor: crosshair;
 }
@@ -69,8 +75,26 @@ body {
     background-image: url('Imagenes/Fondo.jpg');
     background-color: #1a1a1a;
 }
+
 /*------------------Estilo de la Página 2---------------------*/
-.Titulo > h1{
+
+.Encabezadopag2 {
+    display: flex;
+    justify-content: end;
+    background-color: #1e1d19;
+    border-color: #72c524;
+    border-style: inset;
+    border-width: 1px;
+}
+.Encabezadopag2 button {
+    font-family: "Lucida Console", monospace;
+    color: #72c524;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #1a1c19;
+    height: 35px;
+}
+.Titulo>h1 {
     margin: 0;
     padding: 12px 28px;
     background: #000;
@@ -81,17 +105,23 @@ body {
     font-size: 2rem;
 
 }
-.cuerpo img{
+
+.Armas img {
     height: 120px;
     width: 120px;
     margin: 20px;
 }
 
-.Armas{
+.Armas {
     width: 1000px;
 }
 
-.Pistolas, .Melee, .Smg, .Escopetas, .RiflesDeAsalto, .Snipers{
+.Pistolas,
+.Melee,
+.Smg,
+.Escopetas,
+.RiflesDeAsalto,
+.Snipers {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -102,21 +132,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh; 
+    height: 10vh;
 }
 
 /* Estilo común para todas las cajas */
 
 
- /* Estilo para la caja superior */
+/* Estilo para la caja superior */
 .caja-superior {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh; 
-    margin-top: 20px; 
+    height: 15vh;
+    margin-top: 20px;
 }
-
 
 
 /*------------------Estilo de la Página 3---------------------*/
@@ -199,7 +228,7 @@ body {
     border-left-color: #8b89895c;
     border-bottom-color: #2a31249f;
     border-right-color: #2a31249a;
-    font-family: "Lucida Console",monospace;
+    font-family: "Lucida Console", monospace;
     margin-top: 40px;
     height: 25px;
     justify-content: left;
@@ -221,7 +250,7 @@ body {
 }
 
 .Encabezado button {
-    font-family: "Lucida Console",monospace;
+    font-family: "Lucida Console", monospace;
     color: #fcf6f2;
     margin-top: 3px;
     margin-bottom: 3px;
@@ -238,8 +267,9 @@ body {
         box-shadow: 0 0 0 1px #06060699;
     }
 }
+
 .aviso {
     font-size: small;
     color: #c8ae04fe;
-    font-family: "Lucida Console",monospace;
+    font-family: "Lucida Console", monospace;
 }
