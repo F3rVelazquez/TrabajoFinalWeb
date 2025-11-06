@@ -48,7 +48,59 @@ a{
     color: #376fdf;
 }
 body{
+    background: #2d332f;
     cursor: url("Imagenes/si.cur");
-    background-image: url('Imagenes/eeeeeeeee.jpg');
-    background-color: #1a1a1a;
 }
+
+
+/*------------------Estilo de la Pagina 2---------------------*/
+.Titulo > h1{
+    margin: 0;
+    padding: 12px 28px;
+    background: #000;
+    color: #e0e4df;
+    border-radius: 12px;
+    border: 2px solid #ffffff0d;
+    box-shadow: 0 4px 12px #00000099;
+    font-size: 2rem;
+
+}
+
+/* Contenedor del título centrado */
+.Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+/* Estilo común para todas las cajas */
+.Melee, .Pistolas, .Smg, .Escopetas, .Subfusiles, .Rifles, .Francotiradores {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    color: #e0e4df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000099;
+}
+
+ /* Estilo para la caja superior */
+.caja-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; 
+    margin-top: 20px; 
+}
+
+
+
+
+
+
+
+
