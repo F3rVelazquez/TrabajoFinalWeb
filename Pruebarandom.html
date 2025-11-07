@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sprite {
+            display: flex;
+            align-items: start;
+            border-style: outset;
+            border-top-color: #9b9595a0;
+            border-left-color: #8b898998;
+            border-bottom-color: #2a31249f;
+            border-right-color: #2a31249a;
+            padding: 10px;
+            width: fit-content;
+            background-color: #3d4734fd;
+        }
+        img{
+            border-width: 2px;
+            border-style: inset;
+            border-color: #353232;
+        }
+        .opcion {
+            display: flex;
+            flex-direction: column
+        }
+
+        select {
+            margin-left: 5px;
+            margin-top: 2px;
+            height: 30px;
+            width: 120px;
+            color: #fcf6f2;
+            background-color: #57654a;
+            border-width: 2px;
+            border-style: outset;
+            border-top-color: #9b959579;
+            border-left-color: #8b89895c;
+            border-bottom-color: #2a31249f;
+            border-right-color: #2a31249a;
+            font-family: "Lucida Console", monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sprite">
+        <img src="Spray/Lambda_orange.webp" id="foto" alt="Spray">
+        <div id="opcion">
+            <select name="Logo" id="Logo">
+                <option value="Lambda">Lambda</option>
+                <option value="Skull">Cráneo</option>
+                <option value="V_1">V_1</option>
+                <option value="Smiley">Smiley</option>
+                <option value="Tiki">Tiki</option>
+                <option value="8ball1">8ball1</option>
+                <option value="Andre">Andre</option>
+                <option value="Camp1">Camp1</option>
+                <option value="Chick1">Chick1</option>
+                <option value="Chuckskull">Chuckskull</option>
+                <option value="Devl1">Devl1</option>
+                <option value="Gun1">Gun1</option>
+                <option value="Splatt">Splatt</option>
+            </select><br>
+            <select name="color" id="color">
+                <option value="orange">Naranja</option>
+                <option value="yellow">Amarrillo</option>
+                <option value="blue">Azul</option>
+                <option value="ltblue">Azul Claro</option>
+                <option value="green">Verde</option>
+                <option value="red">Rojo</option>
+                <option value="brown">Marrón</option>
+                <option value="ltgray">Gris claro</option>
+                <option value="dkgray">Gris Oscuro</option>
+            </select><br><br>
+        </div>
+    </div>
+</body>
+<script>
+    document.getElementById("Logo").onclick = Tipo;
+    document.getElementById("color").onclick = Tipo;
+    function Tipo() {
+        let selec = document.getElementById('Logo').value;
+        let color = document.getElementById('color').value;
+        let img = document.getElementById("foto");
+        img.src = "";
+
+
+        img.src = "Spray/" + selec + "_" + color + ".webp";
+
+        sepa.innerHTML = selec;
+    }
+
+</script>
+
+</html>
