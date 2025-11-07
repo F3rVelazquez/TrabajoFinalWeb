@@ -258,12 +258,12 @@ footer{
 /*------------------Estilo de la Página 3---------------------*/
 .cuerpoform {
     justify-self: center;
-    background-color: #404b36;
+    background-color: #222320;
     border: outset 2px;
-    border-top-color: #9b9595a0;
-    border-left-color: #8b898998;
-    border-bottom-color: #2a31249f;
-    border-right-color: #2a31249a;
+    border-top-color: #9b9595d9;
+    border-left-color: #8b8989d6;
+    border-bottom-color: #2a3124;
+    border-right-color: #2a3124;
     width: 700px;
     height: 725px;
 }
@@ -271,8 +271,8 @@ footer{
 .formu {
     border-top-color: #9b9595a0;
     border-left-color: #8b898998;
-    border-bottom-color: #2a31249f;
-    border-right-color: #2a31249a;
+    border-bottom-color: #2a3124;
+    border-right-color: #2a3124;
     display: flex;
     justify-self: center;
     background-color: #57654a;
@@ -294,7 +294,7 @@ footer{
 .formulario input {
     border-style: inset;
     margin: 5px;
-    background-color: #373f2faf;
+    background-color: #373f2f;
     box-sizing: border-box;
     width: 100%;
 
