@@ -52,6 +52,30 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.cuerpo {
+    justify-self: center;
+    background-color: #212121fc;
+    border: solid 1px #2b2a2a;
+    width: 1200px;
+}
+
+.cuerpoform {
+    justify-self: center;
+    background-color: #212121fc;
+    border: solid 1px #2b2a2a;
+    width: 700px;
+}
+
+a {
+    color: #40dd45ba;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('Imagenes/Fondobody.jpg');
+}
+
+
 .recuadro {
     background-color: #1e1e1e;
     color: white;
@@ -71,48 +95,7 @@ h2 {
     text-align: justify;
 }
 
-.cuerpo {
-    justify-self: center;
-    background-color: #212121fc;
-    border: solid 1px #2b2a2a;
-    width: 1200px;
-}
-
-.cuerpoform {
-    justify-self: center;
-    background-color: #212121fc;
-    border: solid 1px #2b2a2a;
-    width: 700px;
-}
-
-a {
-    color: #376fdf;
-}
-
-body {
-    background-image: url('Imagenes/Fondobody.jpg');
-}
-
 /*------------------Estilo de la Página 2---------------------*/
-
-.Encabezadopag2 {
-    display: flex;
-    justify-content: end;
-    background-color: #1e1d19;
-    border-color: #72c52413;
-    border-style: inset;
-    border-width: 1px;
-}
-
-.Encabezadopag2 button {
-    font-family: "Lucida Console", monospace;
-    color: #d8ddd3;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    background-color: #1a1c1964;
-    height: 35px;
-}
-
 .Titulo>h1 {
     margin: 0;
     padding: 12px 28px;
@@ -137,7 +120,6 @@ body {
     text-align: center;
     justify-content: center;
 }
-
 /*color de cs o terro*/
 .terro {
     color: #dd3333;
@@ -158,7 +140,7 @@ body {
     color: #a1a105;
 }
 
-.Equipamiento img {
+.Equipamiento img{
     width: 175px;
 }
 
@@ -271,12 +253,10 @@ select {
     font-size: x-large;
     font-family: "Lucida Console", monospace;
 }
-
-footer {
+footer{
     margin-top: 50px;
     height: 150px;
 }
-
 /*------------------Estilo de la Página 3---------------------*/
 .cuerpoform {
     justify-self: center;
