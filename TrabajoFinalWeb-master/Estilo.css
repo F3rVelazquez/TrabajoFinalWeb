@@ -1,0 +1,410 @@
+.carrousel button {
+    font-size: 80px;
+    border: 0cap;
+    width: 300px;
+    color: #76b31c;
+    background-color: rgba(41, 41, 39, 0.647);
+    align-items: center;
+}
+
+.banner {
+    border: solid 1px #adff2f;
+    width: "1200";
+    height: "250";
+}
+
+* {
+    cursor: crosshair;
+}
+
+img {
+    display: flex;
+    justify-self: center;
+}
+
+.carrousel {
+    display: flex;
+    justify-content: center;
+    border: solid 2px #2b2a2a;
+    padding: 20px;
+    background-color: #2e2d2d00;
+}
+
+.carrousel img {
+    width: 700px;
+    height: 500px;
+
+}
+
+p {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e0e4df;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+h1,
+h2 {
+    padding-left: 20px;
+    color: #e0e4df;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.recuadro {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.textito {
+    flex: 1;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.cuerpo {
+    justify-self: center;
+    background-color: #212121fc;
+    border: solid 1px #2b2a2a;
+    width: 1200px;
+}
+
+.cuerpoform {
+    justify-self: center;
+    background-color: #212121fc;
+    border: solid 1px #2b2a2a;
+    width: 700px;
+}
+
+a {
+    color: #376fdf;
+}
+
+body {
+    background-image: url('Imagenes/Fondobody.jpg');
+}
+
+/*------------------Estilo de la Página 2---------------------*/
+
+.Encabezadopag2 {
+    display: flex;
+    justify-content: end;
+    background-color: #1e1d19;
+    border-color: #72c52413;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.Encabezadopag2 button {
+    font-family: "Lucida Console", monospace;
+    color: #d8ddd3;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #1a1c1964;
+    height: 35px;
+}
+
+.Titulo>h1 {
+    margin: 0;
+    padding: 12px 28px;
+    background: #000;
+    color: #e0e4df;
+    border-radius: 12px;
+    border: 2px solid #ffffff0d;
+    box-shadow: 0 4px 12px #00000099;
+    font-size: 2rem;
+
+}
+
+.Armas img {
+    height: 120px;
+    width: 120px;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.Armas {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+/*color de cs o terro*/
+.terro {
+    color: #dd3333;
+}
+
+.anti {
+    color: #2f2fe7;
+}
+
+/*color nombre arma*/
+.columna h3 {
+    color: #ffffff;
+
+}
+
+/*color precio*/
+.columna h4 {
+    color: #a1a105;
+}
+
+.Equipamiento img {
+    width: 175px;
+}
+
+.RiflesDeAsalto img,
+.Francotiradores img,
+.Escopetas img {
+    width: 275px;
+    height: 100px;
+}
+
+.Smg img {
+    width: 200px;
+    height: 120px;
+}
+
+.RiflesDeAsalto,
+.Francotiradores,
+.Escopetas,
+.RiflesDeAsalto,
+.Smg,
+.Melee,
+.Pistolas,
+.Equipamiento {
+    background-color: #1e1d19;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.columna h3,
+.columna h4,
+.columna p {
+    font-family: monospace;
+    line-height: 1.2;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.columna {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1e1d199f;
+}
+
+/* Contenedor del título centrado */
+.Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+/* Estilo para la caja superior */
+.caja-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-top: 20px;
+}
+
+.sprite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: outset;
+    border-top-color: #9b9595a0;
+    border-left-color: #8b898998;
+    border-bottom-color: #2a31249f;
+    border-right-color: #2a31249a;
+    padding: 10px;
+    width: fit-content;
+    background-color: #3d4734fd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sprite img {
+    width: 150px;
+    height: 150px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: #353232;
+}
+
+.opcion {
+    display: flex;
+    flex-direction: column
+}
+
+select {
+    margin-left: 5px;
+    margin-top: 2px;
+    height: 60px;
+    width: 240px;
+    color: #fcf6f2;
+    background-color: #57654a;
+    border-width: 2px;
+    border-style: outset;
+    border-top-color: #9b959579;
+    border-left-color: #8b89895c;
+    border-bottom-color: #2a31249f;
+    border-right-color: #2a31249a;
+    font-size: x-large;
+    font-family: "Lucida Console", monospace;
+}
+
+footer {
+    margin-top: 50px;
+    height: 150px;
+}
+
+/*------------------Estilo de la Página 3---------------------*/
+.cuerpoform {
+    justify-self: center;
+    background-color: #222320;
+    border: outset 2px;
+    border-top-color: #9b9595d9;
+    border-left-color: #8b8989d6;
+    border-bottom-color: #2a3124;
+    border-right-color: #2a3124;
+    width: 700px;
+    height: 725px;
+}
+
+.formu {
+    border-top-color: #9b9595a0;
+    border-left-color: #8b898998;
+    border-bottom-color: #2a3124;
+    border-right-color: #2a3124;
+    display: flex;
+    justify-self: center;
+    background-color: #57654a;
+    padding: 25px;
+    align-self: flex-start;
+    width: fit-content;
+    height: 300px;
+    border-style: outset;
+
+}
+
+.formulario label {
+    font-size: large;
+    color: #ced7cf;
+    font-family: monospace;
+    font: bold;
+}
+
+.formulario input {
+    border-style: inset;
+    margin: 5px;
+    background-color: #373f2f;
+    box-sizing: border-box;
+    width: 100%;
+
+    &:focus {
+        color: #e0e4df;
+        box-shadow: 0 0 0 2px #e9cc11;
+    }
+}
+
+.formulario {
+    padding-top: 15px;
+    width: 250px;
+
+}
+
+.bordeform {
+    height: 200px;
+    border-style: outset;
+    border-top-color: #9b9595a0;
+    border-left-color: #8b898998;
+    border-bottom-color: #2a31249f;
+    border-right-color: #2a31249a;
+    padding: 15px;
+}
+
+.botonform {
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.botonform button {
+    color: #fcf6f2;
+    background-color: #57654a;
+    border-width: 2px;
+    border-style: outset;
+    border-top-color: #9b959579;
+    border-left-color: #8b89895c;
+    border-bottom-color: #2a31249f;
+    border-right-color: #2a31249a;
+    font-family: "Lucida Console", monospace;
+    margin-top: 40px;
+    height: 25px;
+    justify-content: left;
+    width: 75px;
+
+    &:active {
+        background-color: #57654a;
+        box-shadow: 0 0 0 1px #00000099;
+    }
+}
+
+.Encabezado {
+    display: flex;
+    justify-content: end;
+    background-color: #3c4633;
+    border-color: #06060699;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.Encabezado button {
+    font-family: "Lucida Console", monospace;
+    color: #fcf6f2;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #57654a;
+    height: 35px;
+    border-style: outset;
+    border-top-color: #9b959579;
+    border-left-color: #8b89895c;
+    border-bottom-color: #2a31249f;
+    border-right-color: #2a31249a;
+
+    &:active {
+        background-color: #57654a;
+        box-shadow: 0 0 0 1px #06060699;
+    }
+}
+
+.aviso {
+    font-size: small;
+    color: #c8ae04fe;
+    font-family: "Lucida Console", monospace;
+}
+
+.errores {
+    display: block;
+    justify-self: center;
+}
