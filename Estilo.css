@@ -325,7 +325,7 @@ footer {
     box-sizing: border-box;
     width: 100%;
     font-family: monospace;
-    ;
+    cursor: text;
 
     &:focus {
         color: #e9cc11;
