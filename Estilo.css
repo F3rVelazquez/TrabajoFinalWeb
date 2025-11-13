@@ -5,6 +5,10 @@
     color: #76b31c;
     background-color: rgba(41, 41, 39, 0.647);
     align-items: center;
+
+    &:hover {
+        color: #c8ae04fe;
+    }
 }
 
 .banner {
@@ -34,6 +38,14 @@ img {
     width: 700px;
     height: 500px;
 
+}
+
+button {
+    cursor: pointer;
+}
+
+select {
+    cursor: pointer;
 }
 
 p {
@@ -69,6 +81,15 @@ h2 {
 a {
     color: #40dd45ba;
     text-decoration: none;
+}
+
+a:hover {
+    color: #c8ae04fe;
+    cursor: pointer;
+}
+
+a img {
+    cursor: pointer;
 }
 
 body {
@@ -120,6 +141,7 @@ body {
     text-align: center;
     justify-content: center;
 }
+
 /*color de cs o terro*/
 .terro {
     color: #dd3333;
@@ -140,7 +162,7 @@ body {
     color: #a1a105;
 }
 
-.Equipamiento img{
+.Equipamiento img {
     width: 175px;
 }
 
@@ -253,10 +275,12 @@ select {
     font-size: x-large;
     font-family: "Lucida Console", monospace;
 }
-footer{
+
+footer {
     margin-top: 50px;
     height: 150px;
 }
+
 /*------------------Estilo de la Página 3---------------------*/
 .cuerpoform {
     justify-self: center;
@@ -295,13 +319,16 @@ footer{
 
 .formulario input {
     border-style: inset;
+    color: #e9cc11;
     margin: 5px;
     background-color: #373f2f;
     box-sizing: border-box;
     width: 100%;
+    font-family: monospace;
+    ;
 
     &:focus {
-        color: #e0e4df;
+        color: #e9cc11;
         box-shadow: 0 0 0 2px #e9cc11;
     }
 }
@@ -344,6 +371,11 @@ footer{
     justify-content: left;
     width: 75px;
 
+    &:hover {
+        color: #9b880e;
+        background-color: #2a3124;
+    }
+
     &:active {
         background-color: #57654a;
         box-shadow: 0 0 0 1px #00000099;
@@ -371,6 +403,10 @@ footer{
     border-left-color: #8b89895c;
     border-bottom-color: #2a31249f;
     border-right-color: #2a31249a;
+
+    &:hover {
+        background-color: #293023;
+    }
 
     &:active {
         background-color: #57654a;

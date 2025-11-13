@@ -32,7 +32,7 @@
                     <input type="email" name="Email" id="Email" required><br><br>
 
                     <label for="Telefono">Telefono:</label><br>
-                    <input type="tel" name="Telefono" id="Telefono"><br><br>
+                    <input type="tel" name="Telefono" id="Telefono" placeholder="NNN-NNN-NNNN"><br><br>
                 </div>
                 <div class="botonform">
                     <button type="submit">OK</button>
@@ -65,15 +65,15 @@
         let patronEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$/;
         if (email == "") {
             correccion += "Debe ingresar un email.<br>"
-        }else if(!patronEmail.test(email)){
+        } else if (!patronEmail.test(email)) {
             correccion += "El email es invalido.<br>"
         }
 
-        let telv = /[^0-9]/g;
+        let telpatron = /^\d{3}-\d{3}-\d{4}$/
         if (tel == "") {
             correccion += "Debe ingresar un número de telefono.<br>"
-        }else if(telv.test(tel) || tel.length < 5){
-            correccion += "Telefono invalido.<br>"
+        } else if (!telpatron.test(tel)) {
+            correccion += "El número debe cumplir el formato. "
         }
 
         let resultado = document.getElementById("resultado");
@@ -81,7 +81,8 @@
         if (correccion !== "") {
             resultado.innerHTML = correccion;
             resultado.style.color = "red";
-        }else{
+        } else {
+            correccion = "";
             resultado.innerHTML += "Se han enviado los datos correctamente!<br>"
             resultado.innerHTML += "El sorteo se realiza en 5 días!"
             resultado.style.color = "#c8ae04fe";
